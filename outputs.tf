@@ -4,10 +4,10 @@ output "vpc_name" {
   value = ["${aws_vpc.default.tags.Name}"]
 }
 
-output "vpc_id" {
-  description = "list of IDs of VPC"
-  value = ["${aws_vpc.default.id}"]
-}
+# output "vpc_id" {
+#   description = "list of IDs of VPC"
+#   value = ["${aws_vpc.default.id}"]
+# }
 
 
 
